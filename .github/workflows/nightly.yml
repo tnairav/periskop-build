@@ -33,9 +33,11 @@ jobs:
           strip periskop
 
           # build web
+          pushd web
           npm install
           npm run build:dist
 
+          popd
           popd
           pushd periskop-pushgateway
 
