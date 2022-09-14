@@ -33,9 +33,9 @@ jobs:
           strip periskop
 
           # build web
-          # pushd web
-          # npm install
-          npm run build --prefix web
+          pushd web
+          npm install
+          npm run build
 
           # popd
           popd
