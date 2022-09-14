@@ -51,7 +51,7 @@ jobs:
         with:
           name: artifact
           path: |
-            periskop-pushgateway/periskop-pushgateway
-            periskop/periskop
+            # periskop-pushgateway/periskop-pushgateway
+            # periskop/periskop
             periskop/web/build
 
