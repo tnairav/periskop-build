@@ -39,6 +39,7 @@ jobs:
 
           # popd
           popd
+          popd
           pushd periskop-pushgateway
 
           # build pushgateway
