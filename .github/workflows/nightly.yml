@@ -53,5 +53,5 @@ jobs:
           path: |
             periskop-pushgateway/periskop-pushgateway
             periskop/periskop
-            periskop/web/dist
+            periskop/web/build
 
