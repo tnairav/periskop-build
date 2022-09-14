@@ -29,8 +29,8 @@ jobs:
 
           # build server
           git rev-parse HEAD
-          # CGO_ENABLED=0 go build -o periskop .
-          # strip periskop
+          CGO_ENABLED=0 go build -o periskop .
+          strip periskop
 
           # build web
           pushd web
@@ -44,8 +44,8 @@ jobs:
 
           # build pushgateway
           git rev-parse HEAD
-          # CGO_ENABLED=0 go build .
-          # strip periskop-pushgateway
+          CGO_ENABLED=0 go build .
+          strip periskop-pushgateway
 
       - uses: actions/upload-artifact@v3
         with:
